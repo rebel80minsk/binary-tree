@@ -61,8 +61,7 @@ class BinaryTree {
 		var childCnt = 0;
         var minRightNode;
         var minRightNodeParent;
-        //var replacementParent;
-
+        
 		while (!nodeIsFound && currentNode){
 		    if ( data < currentNode.data ) {
 		    	parentNode = currentNode;
