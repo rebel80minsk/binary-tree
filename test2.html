@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Binary tree test2</title>
+</head>
+<body>
+	<script src="./node.js"></script>
+	<script src="./binary-tree.js"></script>
+
+	<script>
+		bt = new BinaryTree();
+
+//		console.log("IsEmpty: " + bt.isEmpty());
+
+		bt.insert(50);
+		bt.insert(70);
+		bt.insert(60);
+		bt.insert(65);
+		bt.insert(90);
+		bt.insert(78);
+		bt.insert(79);
+		bt.insert(100);
+		bt.insert(95);
+
+	//	bt.insert(50);
+		bt.insert(30);
+		bt.insert(20);
+		bt.insert(40);
+		bt.insert(45);
+		bt.insert(43);
+		bt.insert(44);
+		bt.insert(48); 
+
+
+		bt.remove(70);
+
+		console.log(bt);
+		console.log("Size: " + bt.size());
+
+	</script>
+</body>
+</html>
